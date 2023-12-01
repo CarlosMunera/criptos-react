@@ -25,6 +25,22 @@ const Imagen = styled.img`
   }
 `;
 
+const Acerca = styled.p`
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: #FFF;
+
+  span{
+    display: block;
+    color:#66A2FE;  
+    font-weight: 900;
+  }
+
+  @media (max-width: 992px){
+    display: none;
+  }
+`;
+
 const Heading = styled.h1`
   font-family: "Lato", sans-serif;
   color: #fff;
@@ -75,7 +91,13 @@ function App() {
 
   return (
     <Contenedor>
-      <Imagen src={ImagenCripto} alt="imagenes criptomonedas" />
+      <div>
+        <Imagen src={ImagenCripto} alt="imagenes criptomonedas" />
+        <Acerca>Proyecto práctica desarrollado por: <span>Carlos Múnera</span></Acerca>
+        
+      </div>
+      
+
       <div>
         <Heading>Cotiza Criptomonedas al instante</Heading>
         <Formulario
