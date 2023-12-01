@@ -3,7 +3,7 @@
 ![Alt text](src/img/vistaPreviaCM.PNG)
 ## Descripción del proyecto
 * Proyecto de práctica React - Vite: Cotiza criptomonedas al instante.
-* [Ver Proyecto](https://github.com/CarlosMunera/criptos-react)
+* [Ver Proyecto](https://criptos-react-omega.vercel.app/)
 
 ## Tecnologías Utilizada
 * React - Vite
